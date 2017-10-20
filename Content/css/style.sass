@@ -1,0 +1,250 @@
+body
+  font-size: .12rem
+  position: absolute
+  top: 0
+  bottom: 0
+  width: 100%
+  display: -webkit-flex
+  -webkit-flex-direction: column
+  background-color: #ecf1f4
+  font-family: "微软雅黑"
+li
+  list-style: none
+
+.header
+  height: .47rem
+  background-color: #ffffff
+  h1
+    font-size: .14rem
+    text-align: center
+    a
+      display: inline-block
+      line-height: .45rem
+      padding-left: .1rem
+      padding-right: .1rem
+      color: #afafaf
+    .on
+      border-bottom: 2px solid  #474747
+      color: #474747
+  .search
+    position: absolute
+    right: .15rem
+    top: .15rem
+    i
+      font-size: .18rem
+
+.content
+  -webkit-flex: 1
+  overflow-y: scroll
+  .banner
+    height: 1.5rem
+    background-color: #fff
+    border-bottom: 1px solid #cccccc
+    .swiper-banner,
+    .swiper-con
+      width: 100%
+      height: 100%
+    .swiper-pagination
+        .swiper-pagination-bullet,
+        .swiper-pagination-bullet-active
+          display: inline-block
+          width: .15rem
+          height: .02rem
+          background-color: #fff
+  .list-con
+    display: -webkit-flex
+    -webkit-justify-content: space-between
+    -webkit-align-content: center
+    background-color: #fff
+    padding-top: .1rem
+    padding-bottom: .1rem
+    li
+      -webkit-flex: 1
+      text-align: center
+      i
+        width: .4rem
+        height: .4rem
+        border-radius: 30%
+        text-align: center
+        color: #fff
+        line-height: .4rem
+  .tit
+    height: .6rem
+    padding: .05rem .1rem
+    img
+      width: 100%
+      height: 100%
+  .ownerServer
+    background-color: #ffffff
+    h3
+      padding-left: .15rem
+      padding-right: .15rem
+      font-size: .14rem
+    .ownerServer-con
+      ol
+        display: -webkit-flex
+        -webkit-justify-content: space-between
+        -webkit-align-content: center
+        border-top: 1px solid #ededed
+        li
+          -webkit-flex: 1
+          text-align: center
+          padding-bottom: .1rem
+          padding-top: .1rem
+          border-right: 1px solid #ededed
+          &:last-child
+            border-right: none
+  .sale
+    margin-top: .1rem
+    background-color: #ffffff
+    padding-bottom: .1rem
+    h3
+      display: -webkit-flex
+      -webkit-justify-content: space-between
+      -webkit-align-items: center
+      padding: .1rem .15rem
+      .time
+        b
+          display: inline-block
+          width: .2rem
+          height: .2rem
+          color: #fff
+          background-color: #000
+          border-radius: .02rem
+          font-weight: normal
+          font-size: .14rem
+          text-align: center
+          line-height: .2rem
+    .isrollers
+      display: -webkit-flex
+      -webkit-justify-content: space-between
+      -webkit-align-items: center
+      padding-left: .15rem
+      padding-right: .15rem
+      dl
+        width: 1.3rem
+        height: 1.2rem
+        border: 1px solid #ededed
+        margin-right: .18rem
+        position: relative
+        dt
+          width: 1.1rem
+          height: .6rem
+          padding: .15rem .2rem .1rem .2rem
+          img
+            width: 100%
+            height: 100%
+          span
+            position: absolute
+            left: 0%
+            top: 0%
+            background-color: #d5006a
+            color: #fff
+        dd
+          display: -webkit-flex
+          -webkit-justify-content: space-between
+          -webkit-flex-direction: column
+          padding-left: .1rem
+          padding-right: .1rem
+          padding-bottom: .1rem
+          p
+            color: #fd9f71
+            line-height: .2rem
+            h4
+              font-size: .16rem
+            span
+              color: #ccc
+              text-decoration: line-through
+              margin-left: .2rem
+              font-size: .12rem
+  .zone
+    margin-top: .1rem
+    background-color: #ffffff
+    .zone-con
+      display: -webkit-flex
+      -webkit-justify-content: space-between
+      -webkit-align-items: center
+      border: 1px solid #ededed
+      .con
+        -webkit-flex: 33%
+        border-right: 1px solid #ededed
+        padding-top: .1rem
+        padding-bottom: .1rem
+        &:last-child
+          border-right: none
+        p
+          padding-left: .15rem
+          padding-right: .15rem
+          font-size: .14rem
+          line-height: .2rem
+          &:nth-child(2)
+            color: #fb5401
+            font-size: .12rem
+        img
+          padding-left: .15rem
+          padding-right: .15rem
+          width: 1rem
+          height: .6rem
+          box-sizing: border-box
+  .Lovely
+    margin-top: .1rem
+    background-color: #ffffff
+    .Lovely-con
+      display: -webkit-flex
+      border-bottom: 1px solid #ededed
+      dl
+        border-right: 1px solid #ededed
+        overflow: hidden
+        &:last-child
+          border-right: none
+        dt
+          padding: .2rem
+          img
+            width: 1.3rem
+            height: .7rem
+        dd
+          padding: 0 .15rem .2rem .15rem
+          h2
+            font-size: .14rem
+            line-height: .3rem
+          h4
+            color: #9d9d9d
+            font-size: .12rem
+            margin-top: .1rem
+          p
+            margin-top: .1rem
+            font-size: .16rem
+            color: #fb5401
+            span
+              font-size: .12rem
+              text-decoration: line-through
+              color: #d2d2d2
+
+.footer
+  height: .47rem
+  background-color: #fbfbfb
+  ul
+    display: -webkit-flex
+    -webkit-justify-content: space-between
+    -webkit-align-items: center
+    li
+      -webkit-flex: 1
+      text-align: center
+      padding-top: .04rem
+      i
+        font-size: .18rem
+      span
+        display: block
+        font-size: .12rem
+    .active
+      color: #4183ff
+
+
+h3
+  display: -webkit-flex
+  -webkit-justify-content: space-between
+  -webkit-align-items: center
+  padding: .1rem .15rem
+  .more
+    color: #9d9d9d
+
